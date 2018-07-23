@@ -12,7 +12,7 @@
         <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
         <property name="url" value="jdbc:mysql://118.24.166.176:3306/spring_data"></property>
         <property name="username" value="root"></property>
-        <property name="password" value="root"></property>
+        <property name="password" value="123456"></property>
     </bean>
     <!--配置EntityManagerFactory-->
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
